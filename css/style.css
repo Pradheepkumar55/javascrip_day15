@@ -1,0 +1,64 @@
+img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    /* border: 2px solid black; */
+    color: rgb(24, 22, 22);
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+    
+}
+body {
+    
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-style:initial;
+    text-align:start;
+    
+  }
+  h1 {
+    margin: 20px 0;
+    text-align: center;
+  }
+  p{
+    margin: 20px 0;
+    text-align: center;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  .checkbox-group {
+    display: flex;
+    flex-direction: row;
+  }
+  .checkbox-group input {
+    width: auto;
+    margin-right: 10px;
+  }
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  table, th, td {
+    border: 1px solid #110f0f;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    
+  }
+  
